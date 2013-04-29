@@ -5,39 +5,39 @@ body,html {
 	font-family: sans-serif, Helvetica;
 	height: 100%;
 	width: 100%;
-}
-.navbar {
-	height: 60px;
-	color: lightgrey;
-	width: 100%;
 	background-color: black;
-	line-height: 52px;
-	font-weight: bold;
-	font-family: Aleo;
-	font-size: 1.23em;
+	color: rgb(138, 138, 138);
+}
+.bar {
+	height: 5px;
+	width: 100%;
+	background-color: rgb(13, 204, 74);
 }
 .navbar a {
 	padding: 25px;
 }
 a {
-	color: lightgrey;
+	color: rgb(13, 135, 204);
+}
+.green {
+	color: rgb(13, 204, 74);
+	display: inline;
 }
 a:hover {
-	color: rgb(170, 170, 170);
+	color: rgb(7, 99, 151);
 }
-
 .title {
-	font-family: Sans Serif FLF;
+	font-family: Lobster;
 	vertical-align: middle;
 	font-size: 5em;
-}
-.header {
-	background-color: #95431D;
-	height: 36%;
 }
 .header img {
 	width: 100%;
 	vertical-align: middle;
+}
+.description {
+	padding-top: 2%;
+	text-align: left;
 }
 .headblock {
 	padding-top: 2.5%;
@@ -46,19 +46,74 @@ a:hover {
 	margin-left: 20%;
 	margin-right: 20%;
 }
+em {
+	text-decoration: underline;
+}
+.headimg {
+	width: 100%;
+	padding-top: 14px;
+}
 td {
-	width: 50%;
+	padding-top: 14px;
+}
+.buttons {
+	padding-top: 55px;
+	padding-bottom: 55px;
+}
+.button {
+	width: auto;
+	background: rgb(13, 204, 74);
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	color: rgb(243, 243, 243) !important;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Sans Serif FLF;
+	font-size: 2.5em;
+	line-height: 1;
+	margin: 0;
+	padding: 15px 40px 16px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: background-color 0.15s ease-in-out;
+	-moz-transition: background-color 0.15s ease-in-out;
+	-o-transition: background-color 0.15s ease-in-out;
+	transition: background-color 0.15s ease-in-out;
+}
+.firstbtn {
+	margin-right: 115px;
+}
+.button:hover {
+	background: rgb(15, 172, 65);
+}
+.button:active {
+	background: rgb(4, 116, 40);
+}
+.headtd {
+	width: 10%;
+}
+.nexttable {
+	margin-top: 2%;
+}
+.right {
+	text-align: right;
+	padding-left: 0px;
+	padding-right: 4%;
+}
+[class*="section"] {
+	font-family: Aleo;
+	padding-left: 4%;
+}
+.sectiontitle {
+	font-size: 2.8em;
 }
 .undertitle {
-
-}
-.description {
-	height: 30%;
-	background-color: #9D9911;
-}
-.helpout {
-	height: 30%;
-	background-color: #C49638;
+	font-family: Sans Serif FLF;
+	font-size: 1.5em;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 @media (max-width:790px) {
 	body {
